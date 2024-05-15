@@ -1,13 +1,11 @@
 class StringBuilder{
     #value;
-    constructor(value){
-        this.#value = value;
-    }
+
     getValue() {
 
     }
     padEnd(str){
-return this.#value.push(str);
+
     }
     padStart(str){
 
