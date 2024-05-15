@@ -1,11 +1,12 @@
 class StringBuilder{
     #value;
+  
 
     getValue() {
-
+return this.#value;
     }
     padEnd(str){
-
+return this.#value + str ;
     }
     padStart(str){
 
