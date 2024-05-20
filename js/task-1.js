@@ -9,7 +9,7 @@
           return this.balance;
         },
         getDiscount() {
-          return this.discount;
+          return this.discount = discount;
         },
         setDiscount(value) {
           discount = value;
