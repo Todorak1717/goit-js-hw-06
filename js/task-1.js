@@ -9,10 +9,10 @@
           return this.balance;
         },
         getDiscount() {
-          return this.discount = discount;
+          return this.discount;
         },
         setDiscount(value) {
-          discount = value;
+          return this.discount = value;
         },
         getOrders() {
           return this.orders;
