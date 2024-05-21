@@ -9,16 +9,16 @@
           return this.balance;
         },
         getDiscount() {
-          return this.discount;
+           return this.discount;
         },
         setDiscount(value) {
-          return this.discount = value;
+          this.discount = value;
         },
         getOrders() {
-          return this.orders;
+          return  this.orders;
         },
         addOrder(cost, order) {
-          this.balance -= cost - cost * discount;
+          this.balance -= cost - cost * this.discount;
           this.orders.push(order);
         },
         // Change code above this line
